@@ -1,0 +1,943 @@
+﻿/* ********* over righting bootstrap.css start ***************  */
+
+.panel-body {
+    padding: 5px;
+}
+
+
+.textAlignCenter{
+	text-align: center;
+}
+
+
+/* ********** over righting bootstrap.css end ********************** */ 
+
+body
+{
+padding:0px;
+margin:0px;
+width:100%;
+height:100%;
+
+}
+.paddingRight0px{
+	padding-right: 0px;
+}
+
+.paddingLeft0px{
+	padding-left: 0px;
+}
+
+.marginTop15px{
+    margin-top: 15px;
+}
+
+.nav > li > a {
+    padding: 10px !important;
+}
+
+.marginLeft20px{
+	margin-left: 20px;
+}
+
+/* ************************ Large Device Start *************************** */
+
+.hideForMaxResol{
+        visibility: hidden;
+    }
+
+    .with-dropdown>.show{
+        visibility: hidden;
+    }
+
+    .with-dropdown:hover>.show{
+        visibility: visible;
+    }
+
+    .body{
+        /*background-color: #c4e3f3 !important;*/
+        /* background-color: #ffffff !important; */
+        background-color: #f4f4f2 !important;
+        font-family: "Calibri";
+    }
+
+    .container {
+        width: 100% !important;
+    }
+
+    .carousel-inner > .item > img,
+    .carousel-inner > .item > a > img {
+        height: 400px !important;
+        margin: auto;
+        width: 100%;
+        text-align: center;
+    }
+
+    /*********************** integrated qa Labs ***************************/
+    
+    .integratedMobilefontSize{
+    	font-size: 18px;
+    }
+    .integratedQALabCarousal{
+        background-image: url('../../styles/images/test3A1.jpg');
+        width: 100%;
+        background-position: center; 
+        /* background-repeat: no-repeat;
+        background-position: center; */
+    }
+     .capgeminiLogo{
+        width: 200px;
+        height: 65px;
+        margin-right: 10px;
+       /*  margin-left: 255px; */
+        /* text-align: center; */
+    }
+ .capgeminiLoginLogo{
+        width: 200px;
+        height: 65px;
+        margin-right: 10px;
+       /*  margin-left: 255px; */
+        /* text-align: center; */
+    }
+
+    .digiassureLogo{
+        width: 200px;
+        height: 65px;
+        margin-left: 10px;
+    }
+    .integratedQALabNavHoverContent{
+        list-style-type:square;
+        margin-left: -30px;
+    }
+
+    .integratedQALabPanel{
+        height: 350px;
+        background-color: #ffffff;
+        /* background-color: #848484; */
+        border-radius: 15px;
+        border-radius: 0px;
+    }
+    
+    
+
+    .integratedQALabPanelListDataContent{
+        font-size: 18px;
+        list-style: square;
+    }
+
+    .qaLabMobileLab{
+        height: 350px;
+        width: 100%;
+        background-color: #ffffff; /* #fa565a; */
+    }
+
+    /****************************** mobile Lab *********************************/
+    .activeLink{
+        color: #c9302c;
+        /* background-color: lightblue; */
+    }
+
+    .mobileLabHt{
+        height: 735px;
+    }
+
+    .qaLabCloudTesting{
+        height: 350px;
+        width: 100%;
+        /* background-color: darkslateblue; */
+        background-color: #dcdcdc;
+    }
+
+    .qaLabIOT{
+        height: 350px;
+        width: 100%;
+        /* background-color: #1abc9c; */
+        background-color: #ffffff;
+    }
+
+    .qaLabPaymentDevice{
+        height: 350px;
+        width: 100%;
+        /* background-color: #1d7ec2; */
+         background-color: #dcdcdc;
+    }
+
+    /******************************************* digital QA Services ************************************/
+    
+    .digitalQAfontSize{
+    	font-size: 14px;
+    }
+    .digitalQAServiceCarousal{
+        /* background-image: url('../images/integratedQAService_3.png'); */
+        background-image: url('../../styles/images/test2A1.jpg');
+         width: 100%;
+         background-position: center; 
+       /*  background-repeat: no-repeat;
+        background-position: center; */
+    }
+
+    .digitalQAServicePanel{
+        height: 300px;
+        /* background-color: #1abc9c; */
+        background-color: #DCDCDC;
+        /* border-radius: 15px; */
+        border-radius: 0px;
+    }
+    
+    /* .userExperience{
+        height: 150px;
+        width: 100%;
+        background-color: #DCDCDC;
+        background-color: #DCDCDC;
+    }
+    
+    .mobileAppTesting{
+        height: 350px;
+        width: 100%;
+        background-color: #ffffff;
+    }
+    
+    .webAppTesting{
+        height: 350px;
+        width: 100%;
+        background-color: #DCDCDC;
+    }
+    
+    .crossBrowserTesting{
+        height: 350px;
+        width: 100%;
+        background-color: #ffffff;
+    } */
+    
+    /* .digitalPaymentTesting{
+        height: 350px;
+        width: 100%;
+        background-color: #DCDCDC;
+    }
+    
+    .performanceTesting{
+        height: 350px;
+        width: 100%;
+        background-color: #ffffff;
+    }
+    
+    .securityTesting{
+        height: 350px;
+        width: 100%;
+         background-color: #DCDCDC;
+    }
+    
+    .cmsTesting{
+        height: 350px;
+        width: 100%;
+        background-color: #ffffff;
+    }
+    
+    .bptTesting{
+        height: 350px;
+        width: 100%;
+        background-color: #DCDCDC;
+    }
+    
+    .crmTesting{
+        height: 350px;
+        width: 100%;
+        background-color: #ffffff;
+    }
+    
+    .iotDigitalQAService{
+        height: 350px;
+        width: 100%;
+        background-color: #DCDCDC;
+    }
+    .mobileCertificationTesting{
+        height: 350px;
+        width: 100%;
+        background-color: #ffffff;
+    } */
+    
+    
+
+    /******************************************** continuous delivery ***********************************/
+    .continuousDeliveryCarousal{
+       /*  background-image: url('../images/continuousDelivery3.png'); */
+        background-image: url('../../styles/images/test1A.jpg');
+         width: 100%;
+         background-position: center; 
+        /* background-repeat: no-repeat;
+        background-position: center; */
+    }
+    
+    .continuousDeliveryPanel{
+        height: 300px;
+        background-color: #ffffff;
+        /* background-color: #f99d44; */
+        /* background-color: #1d7ec2; */
+        /* border-radius: 15px; */
+        border-radius: 0px;
+    }
+
+    /*  dashboard and monitoring */
+    /* .dashBoardAndMonitoringCarousal{
+        background-image: url('../images/monitoring6.png');
+        height: 400px;
+        background-repeat: no-repeat;
+        background-position: center;
+    } */
+    .dashBoardAndMonitorPanel{
+        height: 300px;
+        background-color: #DCDCDC;
+        /*  background-color: #1abc9c; */
+        /* background-color: #fa565a; */
+        /* border-radius: 15px; */
+        border-radius: 0px;
+    }
+    
+      /******************************************** dashboard ***********************************/
+     .dashboard, .predictiveAnalysis{
+        height: 350px;
+        width: 100%;
+        background-color: #ffffff; /* #fa565a; */
+    }
+    
+    .testCoverage{
+        height: 350px;
+        width: 100%;
+        /* background-color: darkslateblue; */
+        background-color: #dcdcdc;
+    }
+
+    /************************************************** common ***************************************/
+    
+    a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+    .form-control-border-error{
+        border-color: red;
+    }
+
+    .error{
+        color: red;
+    }
+
+   
+
+    .digiAssureText{
+        text-align: center;
+        font-size: 22px;
+    }
+    
+     .digiAssureDescText{
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .aboutDigiAssure{
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .whiteTextColor{
+        color: #ffffff;
+    }
+    .whiteTextColor:hover{
+        color: #000000;
+    }
+
+    .blackTextColor{
+        color: #000000;
+    }
+
+    .paddingTop50px{
+        padding-top: 50px;
+    }
+    .paddingTop100px{
+        padding-top: 100px;
+    }
+
+    .paddingBottom15px{
+        padding-bottom: 15px;
+    }
+    
+    .pieChartLandingPage{
+    	height: auto;
+        width: 77%;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 0px;
+    }
+    
+    .panelImg{
+        /*  height: 200px;
+          width: 250px;*/
+        height: auto;
+        width: 60%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 15px;
+    }
+
+    .mobileLabImg{
+        height: 200px;
+        width: 70%;
+        /*width: 200px;*/
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 15px;
+    }
+    
+    .digitalQAServiceImg{
+        height: 44%;
+        width: 22%;
+        /*width: 200px;*/
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 15px;
+    }
+
+    .panelContent{
+        text-align: center;
+        /* color: #ffffff; */
+    }
+
+     .footer{
+        text-align: center;
+        height: 100px;
+        background-color: black;
+        padding-top:40px;
+		color: #ffffff;
+        margin-bottom: 0px;
+    } 
+
+
+    .digiassureLogoMobileLab{
+        width: 200px;
+        height: 80px;
+    }
+
+    .bgWhite{
+        background-color: #fff;
+    }
+
+    .verticalLine{
+        border-left: 1px solid #000000;
+        height: 100%;
+    }
+
+    .capgeminiLogoOnQAServiceLab{
+        width: 150px;
+        height: 45px;
+    }
+
+    .digiassureLogoQAServiceLab{
+        width: 150px;
+        height: 45px;
+    }
+
+    .dropbtn {
+        background-color: orangered;/*#4CAF50;*/
+        color: white;
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+    }
+
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        /* background-color: #A9CCE3; */
+       /*  font-size: 13px; */
+       font-size: 1.7rem;
+        font-weight: 400;
+        font-family: "SegoeUI", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        width: 70%;
+		height: atuo;
+		text-indent: 1rem;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    }
+
+    .digiQAServiceNavHoverHt{
+        width: 1150px;
+        height: auto;
+    }
+
+    .dropdown-content a {
+        color: black;
+       /*  padding: 12px 16px; */
+        padding: 2px;
+        text-decoration: none;
+        display: block;
+    }
+
+    .dropdown-content a:hover {
+    /* background-color: #f1f1f1; */
+    background-color: #337ab7;
+    color: #ffffff;
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+
+    .dropdown:hover .dropbtn {
+        background-color: #3e8e41;
+    }
+
+    .accordion-height-adjust {
+        padding: 8px 15px;
+    }
+    .accordionSelected {
+        font-weight: bold;
+        color: #761c19;
+    }
+
+    .ellipsis {
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .ellipsis-nowrap {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .heightAuto{
+        height: auto;
+    }
+    /*.height400px{
+        height: auto;
+    }*/
+
+    .height300px{
+        height: auto;
+    }
+
+    .rightBorder{
+        border-right: 1px solid lightgrey;
+    }
+    .carouselBorder{
+        border: 2px solid #1d7ec2;
+        box-shadow: 3px 3px 10px 3px #1d7ec2;
+    }
+
+    .opacityPt5{
+        opacity: 0.5;
+    }
+
+    /* .carousel-control.left{
+        background-image: none;
+    }
+    .carousel-control.right{
+        background-image: none;
+    } */
+
+    .marginTop90px{
+        margin-top: 90px;
+    }
+    
+    .marginTop50px{
+        margin-top: 50px;
+    }
+    
+    .marginTop65px{
+        margin-top: 50px;
+    }
+    
+    .padding0px{
+        padding: 0px !important;
+    }
+
+    .logoBottomBorder{
+        border-bottom: 1px solid #1d7ec2;
+    }
+    
+    
+
+    .loginFooterMarginFromTop{
+        margin-top:26%;
+    }
+	.accessibilityFooterMargin{
+		margin-top:15%;
+	}
+	.consoleMargin{
+		margin-top:30%;
+	}
+	.configurationMargin{
+		margin-Top:20%;
+	}
+	.workInProgressMargin{
+		margin-Top:35%;
+	}
+	.perfectoMargin{
+		margin-top:23%;
+	}
+	.selectDeviceMargin{
+		margin-top: 30%;
+	}
+	.detailtreportMargin{
+		margin-top: 17%;
+	}
+	
+	.newrunMargin{
+		margin-top: 5%;	
+	}
+	.testSuiteMargin{
+		margin-top: 15%;
+	}
+	.analyticsMargin{
+		margin-top: 15%;
+	}
+    .btnCenter{
+        margin-left:auto;
+        margin-right:auto;
+        display:block;
+    }
+
+    /************************************* navigation *************************************/
+
+.nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
+    /* background-color: #eee; */
+    border-color: #337ab7 !important;
+}
+    .integratedQALabNavHoverContent{
+        list-style-type:square;
+        margin-left: -30px;
+    }
+    /* .navCloudComputingPosition{
+        margin-left: -150px;
+    }*/
+    .navDashboardAndMonitoringPosition{
+        margin-left: -450px;
+    }
+    .navDistFromTop{
+        margin-top: 65px;
+    }
+    .qaLabNavLinkDistFromTop{
+        margin-top: 90px;
+    }
+    .qaLabNavBGColor{
+        background-color: seashell;
+        /* z-index: 1; */
+    }
+    .navBGColor{
+        background-color:#1d7ec2;
+    }
+
+    .navImgResolution{
+        width: 30px;
+        height: 30px;
+    }
+    .navFontSize{
+        font-size: 18px;
+    }
+
+    .digiQAServiceNavHoverPosition{
+        width: 1150px;
+        height: auto;
+        margin-left: -300px;
+    }
+
+    .continuousDeliveryNavHoverPosition{
+        width: 1140px;
+        height: auto;
+        margin-left: -550px;
+    }
+    .continuousDeliveryNavContent{
+        list-style-type:square;
+        margin-left: -20px;
+    }
+    
+    .newlogo{
+    height: 50px;
+    width: 100px;
+    }
+    
+    .nav > li > a:hover, .nav > li > a:focus {
+    text-decoration: none;
+    /* background-color: #eee; */
+    
+    background-color: transparent;
+}
+
+/* *** Large Device End *** */
+
+
+.c {
+		border: 0 !important;  /*Removes border*/
+		-webkit-appearance: none;  /*Removes default chrome and safari style*/
+		-moz-appearance: none; /* Removes Default Firefox style*/
+		background: #BBB url(img/select-arrow.png) no-repeat 90% center;
+		width: 169px; /*Width of select dropdown to give space for arrow image*/
+		text-indent: 0.01px; /* Removes default arrow from firefox*/
+		text-overflow: "";  /*Removes default arrow from firefox*/ /*My custom style for fonts*/
+		text-shadow: 6px 5px 8px #D14747;
+		color: #D14747;
+		border-radius: 10px 0px;
+		padding: 2px;
+		box-shadow: inset 0 0 5px rgba(#BBB);
+	}
+	
+	
+	
+	.btnlogout {
+  background: #34c0d9;
+  background-image: -webkit-linear-gradient(top, #34c0d9, #2980b9);
+  background-image: -moz-linear-gradient(top, #34c0d9, #2980b9);
+  background-image: -ms-linear-gradient(top, #34c0d9, #2980b9);
+  background-image: -o-linear-gradient(top, #34c0d9, #2980b9);
+  background-image: linear-gradient(to bottom, #34c0d9, #2980b9);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 6px 12px 5px 10px;
+  text-decoration: none;
+}
+
+.btnlogout:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #cc6094);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #cc6094);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #cc6094);
+  background-image: -o-linear-gradient(top, #3cb0fd, #cc6094);
+  background-image: linear-gradient(to bottom, #3cb0fd, #cc6094);
+  text-decoration: none;
+}
+
+.table-hover tr:hover td, .table-hover tr:hover th {
+  background-color: #D9F2FA;
+  color:#000;
+}
+/* 
+select {
+	border: 0 !important;  
+	-webkit-appearance: none;  
+	-moz-appearance: none; 
+	
+	width: 200px; 
+	text-indent: 0.01px; 
+	text-overflow: ""; 
+	background:  url("select-arrow.png") no-repeat 99% 50% #D2F0FA;
+	color: #000;
+	border-radius: 10px;
+	padding: 5px;
+	box-shadow: inset 0 0 5px rgba(000,000,000, 0.5);
+} */
+
+select {
+  margin: 0px;
+  margin-top: 3px;
+  height: 40px;
+  width: 100%;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #0A7DA3;
+  padding: 9px;
+  font-family: tescoregular;
+  font-size: 15px;
+  color: #666666;
+  -webkit-appearance: none;
+  -webkit-border-radius: 0px;
+  -moz-appearance: none;
+  appearance: none;
+  background: url('select-arrow.png') no-repeat 97% 50% #D2F0FA;
+  background-size: 11px 7px;
+  /* border-radius:10px; */
+  background-color: #fff;
+}
+
+select:hover{
+	background-color: #fff;
+	
+}
+
+textarea {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+     border-radius: 5px;
+    border-color: #0A7DA3;
+}
+
+input[type="text"]{
+border-color: #0A7DA3;
+}
+
+
+a{
+	text-decoration: none;
+}
+
+ul.logout{
+	width: 100px;
+	height: 28px;
+}
+.logout > li > a {
+     padding: 0px 20px;
+     line-height: 1.22857143;
+   }
+   
+   
+   
+   #parentMenu {
+    display: block;
+    top: 0;
+}
+
+/* Helps position submenu */
+.dropdown-submenu {
+    position: relative;
+}
+/* Menus under the submenu should show up on the right of the parent */
+.dropdown-submenu > .dropdown-menu {
+    top:0;
+    left:100%;
+    margin-top:-6px;
+    margin-left:-1px;
+    -webkit-border-radius:0 6px 6px 6px;
+       -moz-border-radius:0 6px 6px 6px;
+            border-radius:0 6px 6px 6px;
+}
+/* Make submenu visible when hovering on link */
+.dropdown-submenu:hover>.dropdown-menu {
+    display:block;
+}
+/* Add carot to submenu links */
+.dropdown-submenu>a:after {
+    display:block;
+    float:right !important;
+    
+    /*simple */
+    content: "►";
+    color: #cccccc;
+    
+    /* looks a little better */
+    content:" ";
+    width:0;
+    height:0;
+    border-color:transparent;
+    border-style:solid;
+    border-width:5px 0 5px 5px;
+    border-left-color:#cccccc;
+    margin-top:5px;
+    margin-right:-10px;
+}
+/* Change carot color on hover */
+.dropdown-submenu:hover>a:after {
+    border-left-color:#ffffff;
+}
+
+
+/*************** Google Chart *********************  */
+.chart,.chart_os {
+  width: 100%; 
+  min-height: 450px;
+}
+
+.chart_ar, .chart_iosr{
+	width: 100%;
+	min-height: 450px;
+} 
+
+
+#review-list .review-stats {
+	border: solid 0px #fff !important;
+	/* border-radius: 3px;
+	color: #9398A1 */
+}
+
+#review-list .review-stats {
+	border: solid 0px #fff !important;
+}
+
+.sentiment_div {
+	width: 400px;
+	height: 400px;
+}
+
+.sentiment_div_dial {
+	width: 400px;
+	height: 400px;
+}
+
+
+.form-control + .glyphicon {
+    position: absolute;
+    right: 0;
+    padding: 8px 27px;
+}
+
+
+.progress {
+    height: 20px;
+    margin-bottom: 0px;
+    margin: 2px;
+    overflow: hidden;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, .1);
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, .1);
+}
+
+.x-navigation.x-navigation-horizontal {
+  height: 65px !important;
+}
+
+.x-navigation .xn-search:before {
+	line-height: 47px !important;
+}
+
+.x-navigation.x-navigation-horizontal .xn-search {
+  padding: 20px 5px !important;
+}
+
+.x-navigation.x-navigation-horizontal > li > a {
+  padding: 23px 20px 20px 15px !important;
+}
+
+.nav-tabs {
+    border-bottom: 1px solid black !important;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus {
+    color: #555;
+    cursor: default;
+    background-color: #fff;
+    border: 1px solid black !important;
+    border-bottom-color: transparent !important;
+}
+
+
+
+.nav-new>li.active>a, .nav-new>li.active>a:hover, .nav-new>li.active>a:focus {
+    color: #555;
+    cursor: default;
+    background-color: #fff;
+    border: 1px solid black !important;
+    border-bottom-color: transparent !important;
+}
+
+.btn-primary {
+	background-color: #89ad4d !important;
+    border-color: #89ad4d !important;
+} 
+
